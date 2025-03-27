@@ -29,7 +29,7 @@ def main():
             print("You guessed correctly!")
         # Otherwise, the user did not guess correctly.
         else:
-            # Display that the user guess incorrectly, showing the correct answer.
+            # Display that the user guessed incorrectly, showing the correct answer.
             print(f"You guessed incorrectly! The correct answer was {correct_num}.")
 
     # Run if int() could not convert the user's input value to an integer.
