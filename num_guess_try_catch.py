@@ -10,6 +10,7 @@ prevent erroneous user input from crashing the program.
 # Import the random module for random number generators.
 import random
 
+
 # Define the main function.
 def main():
     # Generate an integer between 0 and 9 and store it as the correct number.
@@ -33,8 +34,9 @@ def main():
 
     # Run if int() could not convert the user's input value to an integer.
     except ValueError:
-            # Display that the user did not enter a valid integer.
-            print(f"{chosen_num_str} is not an integer.")
+        # Display that the user did not enter a valid integer.
+        print(f"{chosen_num_str} is not an integer.")
+
 
 # Check if the special name of the file is __main__.
 if __name__ == "__main__":
